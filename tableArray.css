@@ -1,0 +1,45 @@
+table,
+th,
+td,
+tbody {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+.heading {
+	border: 1px solid black;
+	width: 25%;
+	display: block;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.container {
+	width: 100% //border: 1px solid black;
+	height: auto;
+}
+
+#add {
+	background-color: forestgreen;
+	border: none;
+	color: white;
+	padding: 5px 22px;
+}
+
+.delbtn {
+	background-color: darkred;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+}
